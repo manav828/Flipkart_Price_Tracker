@@ -119,7 +119,7 @@ function ProductDetails({ productData = defaultProductData }) {
         const numPrice = parseFloat(price) || 0;
         return new Intl.NumberFormat('en-US', {
             style: 'currency',
-            currency: 'USD'
+            currency: 'INR'
         }).format(numPrice);
     };
 
