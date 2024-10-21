@@ -29,7 +29,7 @@ It's recommended to use a virtual environment to manage your project dependencie
 #### Activate the virtual environment:
 
     venv\Scripts\activate
-#### 3. Install the required dependencies using pip:
+#### 4. Install the required dependencies using pip:
 
     pip install -r requirements.txt
 
