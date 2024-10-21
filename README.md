@@ -14,7 +14,8 @@
     cd Flipkart_Price_Tracker/flipkart-ptrack
 #### 3. Install Frontend Dependencies
     npm install
-
+#### 4. Run Frontend
+    npm start
 
 
 ## Commands For Backend  
@@ -36,3 +37,6 @@ It's recommended to use a virtual environment to manage your project dependencie
 Alternatively, you can manually install the dependencies:
 
     pip install Flask Flask-CORS requests beautifulsoup4 pymongo
+#### 5. Run the server:
+
+    python server.py
