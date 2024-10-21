@@ -1,0 +1,58 @@
+.table-container {
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+}
+
+.table-title {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* Ensure header stays above content */
+}
+
+.table-row {
+    background-color: #fff;
+}
+
+.table-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.chart-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.chart-button:hover {
+    background-color: #45a049;
+}
+
+.table-scroll {
+    max-height: 400px;
+    /* Set a fixed height for the scrollable area */
+    overflow-y: auto;
+    padding-right: 10px;
+    /* Add padding to the right to ensure scroll bar doesn't overlap */
+    z-index: 0;
+    position: relative;
+    /* Ensure it has the correct stacking context */
+}
